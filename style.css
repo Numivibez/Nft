@@ -1,0 +1,79 @@
+body{
+    background-color: #022247;
+    height: 100vh;
+}
+
+container{
+    padding: 0;
+    margin: 0;
+    color: #01162e;
+}
+
+.nft-container{
+    background-color: #032c5c;
+    padding: 10px;
+    box-shadow: -5px 5px 50px 20px #01162e;
+    width: 250px;
+    margin: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.nft-container img{
+    height: fit-content;
+    width: 250px;
+    border-radius: 10px;
+}
+
+.eth-price{
+    display: flex;
+    justify-content: space-between;
+    color: #eeeeee;
+}
+
+#eth{
+    color: #a8a74d;
+    font-weight: bold;
+}
+
+h2{
+    color: #a8a74d;
+}
+
+p{
+    color: #eeeeee;
+    font-size: small;
+}
+
+hr{
+    margin-top: 20px;
+}
+
+.review{
+    align-self: center;
+    display: flex;
+    justify-content: space-evenly;
+    color: #eeeeee;
+    align-self: center;
+    
+}
+
+.review img{
+    width: 10%;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+
+.review h5{
+    margin: 0px;
+    align-self: center;
+
+}
+
+.review span{
+    color: #a8a74d;
+}
